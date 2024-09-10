@@ -1,0 +1,15 @@
+app:
+  name: partner-gsi-wheres-teddy-app
+  namespace: partner-gsi
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/partner-gsi-wheres-teddy
+  org: WindTurbineInc
+  name: partner-gsi-wheres-teddy
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: partner-gsi/wheres-teddy-app
+  tag: latest
